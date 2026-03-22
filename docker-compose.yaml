@@ -6,7 +6,7 @@ services:
     container_name: express-app
 
   watchtower:
-    image: nickfedor/watchtower
+    image: containrrr/watchtower
     environment:
       -  WATCHTOWER_POLL_INTERVAL=60
     volumes:
